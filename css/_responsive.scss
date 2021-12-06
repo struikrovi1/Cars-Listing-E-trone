@@ -1,0 +1,192 @@
+@media (max-width: 576px) {
+    #e-top-overlay {
+        .e-trone-text {
+            h1 {
+                font-size: 18px;
+            }
+        }
+
+        .main-path {
+            font-size: 18px;
+        }
+    }
+
+    #e-trone-home {
+        .pix-single-top {
+            .car-chars {
+                .bottom-box-elements {
+                    h6 {
+                        font-size: 12px;
+                    }
+
+                    p {
+                        &.void-space {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pix-double {
+            .tabMenu {
+                .tab-top {
+                    display: block !important;
+
+                    hr {
+                        display: none;
+                    }
+
+                    button {
+                        width: 100%;
+                        text-align: left;
+                        margin: 6px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media(max-width: 768px) {
+
+    #e-top-overlay {
+        .e-trone-text {
+            h1 {
+                font-size: 25px;
+            }
+
+            .main-path {
+                .path-a {
+
+                    a {
+                        font-size: 16px;
+                    }
+
+                    i {
+                        font-size: 13px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    #e-trone-home {
+        .pix-single-top {
+            .car-chars {
+                .bottom-box-elements {
+                    h6 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        &.void-space {
+                            display: none;
+                        }
+                    }
+                }
+
+                .trone-finance {
+                    h5 {
+                        font-size: 16px;
+                    }
+                    .finance-item{
+                        span{
+                            &.f-top-span{
+                                font-size: 14px!important;
+                            }
+                            &.span-middle{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+
+}
+
+@media(max-width: 998px) {
+
+    #e-trone-home {
+        .e-trone-right {
+            .bix-swiper-box {
+
+                height: 0% !important;
+
+                .swiper {
+                    &.d-none-box {
+                        display: none;
+                    }
+
+                }
+
+            }
+
+            .pix-single-top {
+                .car-chars {
+                    .rent-pix-list {
+                        .pix-td {
+                            span {
+                                &.rent-span {
+                                    &.th {
+                                        font-size: 14px;
+                                        margin-bottom: 3px;
+
+                                        &.tk {
+                                            font-size: 14px;
+                                        }
+                                    }
+
+                                    &.td {
+                                        margin-top: 30px;
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+            }
+        }
+    }
+}
+
+
+
+
+@media(max-width:1024px){
+   #e-trone-home{
+    .pix-double{
+        .tab-item{
+            .pix-checklist{
+               
+                    li{
+                        font-size: 12px!important;
+                        &::before{
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                
+            }
+        }
+    }
+   }
+}
+
+
+@media(min-width: 768px) {}

@@ -1,0 +1,1243 @@
+$colorRed: #ff3837;
+$fontColor: #5c5c5c;
+@import "_main";
+
+
+#e-top-overlay {
+
+    background-image: url(https://quattro.true-emotions.studio/wp-content/uploads/2018/11/bg1.jpg);
+    margin-bottom: 100px;
+    background-size: cover;
+    padding: 90px 0px 90px;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    width: 100%;
+    position: relative;
+
+
+
+    &::after {
+        display: block;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.719);
+
+
+
+    }
+
+
+    .e-trone-text {
+        position: relative;
+        z-index: 1;
+
+        h1 {
+            color: white;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1;
+            display: inline-block;
+            vertical-align: bottom;
+
+        }
+
+        .path-a {
+            a {
+                font-size: 18px;
+                color: white;
+                display: block;
+                padding-right: 15px;
+                padding-top: 15px;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    color: #ff3837;
+                    text-decoration: none;
+                }
+            }
+
+            i {
+                font-size: 13px;
+                font-weight: bold;
+                color: white;
+                margin-top: 22px;
+                margin-right: 10px;
+            }
+
+        }
+    }
+}
+ ////////////////TOP END /////////////////////////////
+
+#e-trone-home {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+///////////////////START RIGHT/////////////////////////
+    .e-trone-right {
+        padding-right: 25px;
+
+
+        .pix-single-top {
+            padding-bottom: 50px;
+
+
+            .bix-swiper-box {
+                height: 80vh;
+                width: 100%;
+                position: relative;
+
+                .swiper-button-next,
+                .swiper-button-prev {
+                    --swiper-navigation-size: 15px;
+                    background-color: rgba(39, 37, 37, 0.514);
+                    padding: 20px;
+                    font-weight: 700;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        color: $colorRed;
+                    }
+
+
+
+                }
+
+                .fancy-box-data {
+                    position: absolute;
+                    background-image: url(https://quattro.true-emotions.studio/wp-content/plugins/pix-cars/assets/images/maximize.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 20px;
+                    height: 20px;
+                    z-index: 100;
+                    left: 20px;
+                    bottom: 23%;
+                    cursor: not-allowed;
+                }
+
+
+
+
+                .swiper {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: #fff;
+
+                    /* Center slide text vertically */
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    align-items: center;
+                }
+
+                .swiper-slide img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+
+
+                .swiper {
+                    width: 100%;
+                    height: 100px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .swiper-slide {
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .mySwiper2 {
+                    height: 80%;
+                    width: 100%;
+                }
+
+                .mySwiper {
+                    height: 20%;
+
+                    box-sizing: border-box;
+
+                }
+
+                .mySwiper .swiper-slide {
+                    width: 25%;
+                    height: 100%;
+                    opacity: 1;
+                }
+
+                .mySwiper .swiper-slide-thumb-active {
+                    opacity: 0.4;
+                }
+
+                .swiper-slide img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+            }
+
+            ////////////////////////////
+
+            .car-chars {
+                width: 100%;
+                height: 100%;
+                padding: 3rem;
+                background-color: whitesmoke;
+
+                .bottom-box-elements {
+                    position: relative;
+
+                    .list-boxes {
+                        margin-bottom: 20px;
+                    }
+
+                    .pdf-small-box {
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+
+                        h4 {
+                            font-size: 15px;
+
+                            i {
+                                font-size: 25px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    p {
+                        &.void-space {
+                            padding-top: 30px;
+                        }
+                    }
+
+                    a {
+                        display: block;
+                        width: 100%;
+
+                        &.a-red-button {
+                           margin-bottom: 20px;
+                            text-decoration: none;
+                            background-color: $colorRed;
+                            padding: 5px 40px;
+                            border-radius: 5px;
+                            color: white;
+                            font-weight: 700;
+                            position: relative;
+                            overflow: hidden;
+
+                            p {
+                                transition: 0.3s ease-in-out;
+                                transform: translateY(7px);
+                            }
+
+                            &:hover {
+                                box-shadow: 0px 0px 15px 2px #d42424b6;
+                                background-color: red;
+
+                                p {
+                                    transform: translateY(-50px);
+                                }
+
+                                &::after {
+                                    transform: translateY(-56px);
+                                }
+
+                            }
+
+                            &::after {
+                                position: absolute;
+                                transition: 0.3s ease-in-out;
+                                content: "Booking";
+                                top: 70px;
+                                left: 34%;
+                                text-align: center;
+                                color: white;
+
+                            }
+
+
+
+
+
+
+
+
+
+                        }
+                    }
+                }
+
+
+                .rent-pix-list {
+
+
+
+
+                    .pix-td {
+
+
+                        span {
+                            &.rent-span {
+                                display: block;
+
+
+                                &.th {
+                                    color: $fontColor;
+                                    font-size: 16px;
+
+                                    &.tk {
+                                        font-weight: 700;
+                                    }
+                                }
+
+                                &.td {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .trone-finance {
+                    width: 100%;
+                    padding-top: 20px;
+
+
+                    h5 {
+                        padding-left: 8px;
+                    }
+
+
+                    .finance-content {
+
+                        flex-wrap: wrap;
+
+                        .finance-item {
+                            padding: 10px;
+
+
+                            span {
+
+                                display: block;
+
+                                &.span-middle {
+                                    color: $fontColor;
+                                    font-weight: 700;
+                                }
+
+                                &.f-top-span {
+                                    font-size: 17px;
+                                    font-weight: 500;
+                                }
+                            }
+
+                            p {
+                                font-size: 12px;
+                                color: gray;
+                            }
+                        }
+
+                    }
+
+                }
+
+
+
+
+            }
+
+
+
+
+
+
+
+        }
+
+        ////////////////END SINGLE///////////////
+        //////////////////START DOUBLE/////////////////
+
+        .pix-double {
+            /////////////TABMENU///////////////
+            .pix-tab-menu {
+                .tabMenu {
+
+                    ////////////////////TAB TOP CONTENT///////////////////////////
+
+                    .tab-top {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        button {
+                           
+                            border: none;
+                            border-radius: 5px 5px 0 0;
+                            padding: 20px 25px;
+                            font-size: 20px;
+                            font-weight: 800;
+                            margin-left: 6px;
+                        }
+
+                        hr {
+                            padding: 0;
+                            margin: 0;
+
+                        }
+                    }
+
+                    //////////////////TAB CONTENT//////////////
+
+                    .tab-content {
+
+                        .tab-item {
+                            display: none;
+                            padding: 45px 25px 45px 20px;
+
+
+/////////////////////NUMBER ONE CONTENT////////////////
+                            &.number-one {
+                                display: block;
+
+                                p {
+                                    color: $fontColor;
+
+                                    font-size: 16px;
+
+                                    padding-bottom: 30px;
+                                    font-weight: 500;
+
+                                }
+
+                                .accordion {
+                                    .accordion-item {
+                                        width: 100%;
+                                        height: 100%;
+                                        border: white;
+
+
+
+
+                                        button {
+                                            width: 100%;
+                                            padding: 6px;
+                                            border: none;
+                                            outline: none;
+                                            text-align: left;
+                                            background-color: white;
+                                            border: white;
+                                            font-size: 16px;
+                                            font-weight: 700;
+
+                                            color: black;
+                                            position: relative;
+
+                                            &::after {
+                                                position: absolute;
+                                                height: 22px;
+                                                background-color: red;
+                                                width: 4px;
+                                                content: "";
+                                                transition: 0.3s ease-in-out;
+
+
+                                                right: 18px;
+                                                top: 12px;
+                                            }
+
+                                            &::before {
+                                                content: "";
+                                                width: 4px;
+                                                height: 22px;
+                                                background-color: red;
+                                                position: absolute;
+                                                right: 18px;
+                                                top: 12px;
+                                                transform: rotate(90deg);
+                                                transition: 0.3s ease-in-out;
+
+
+
+
+
+                                            }
+
+                                            &.active {
+
+
+                                                &::after {
+
+                                                    content: "";
+                                                    transform: rotate(90deg);
+
+
+                                                }
+
+                                            }
+
+                                            span {
+                                                display: inline-block;
+                                                padding-bottom: 6px;
+                                            }
+
+
+
+
+
+                                        }
+
+                                        .accord-content {
+                                            display: none;
+                                            padding-left: 20px;
+                                            width: 100%;
+                                            height: 100%;
+
+                                        }
+                                    }
+                                }
+                            }
+
+
+                            //////////////////NUMBER TWO CONTENT/////////
+
+                            &.number-two {
+                               
+
+                                .pix-ul-item {
+                                    li {
+                                        padding-left: 33px;
+                                        font-size: 15px;
+                                        position: relative;
+                                        font-weight: 600;
+                                        line-height: 32px;
+
+                                        &::before {
+                                            content: '';
+                                            position: absolute;
+                                            top: 2px;
+                                            left: 0;
+                                            background-image: url(https://quattro.true-emotions.studio/wp-content/plugins/pix-cars/assets/images/check-circle.svg);
+                                            background-size: cover;
+
+                                            width: 21px;
+                                            height: 21px;
+                                        }
+
+                                        &.li-pix-close {
+                                            &::before {
+                                                content: '';
+                                                position: absolute;
+                                                top: 2px;
+                                                left: 0;
+                                                background-image: url(https://quattro.true-emotions.studio/wp-content/plugins/pix-cars/assets/images/cancel-circle.svg);
+                                                background-size: cover;
+
+                                                width: 21px;
+                                                height: 21px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+
+
+                    }
+
+                }
+            }
+        }
+
+
+
+
+
+
+    }
+
+
+
+ //////////////START LEFT//////////////////////////
+
+
+    .e-trone-left {
+        .pix-side-bar {
+            margin-bottom: 100px;
+
+            ///////////////START TOP FILTER////////////
+
+            .top-filter-pix {
+                background: #111111;
+                color: #fff;
+                width: 100%;
+                text-align: left;
+                padding: 45px;
+                border-radius: 5px;
+                display: inline-block;
+                vertical-align: top;
+                margin-bottom: 52px;
+
+                .filter-title-box {
+                    h3 {
+                        padding: 0 48px 0 0;
+                        position: relative;
+                        font-size: 24px;
+                        line-height: 1;
+                        font-weight: 700;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        
+
+                        span {
+                            background-image: url(https://quattro.true-emotions.studio/wp-content/themes/quattro/images/decor.svg);
+                            width: 42px;
+                            height: 42px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            position: absolute;
+
+                            top: 0;
+                            bottom: 0;
+                            right: 0;
+                            margin: auto;
+                        }
+                    }
+
+
+                }
+
+                .pix-filter {
+                    span {
+                        &.sp {
+                            text-align: left;
+                            padding-top: 18px;
+                            font-size: 17px;
+                            color: gray;
+                        }
+
+                    }
+
+                    details {
+                        position: relative;
+                        width: 300px;
+                        margin-right: 1rem;
+                        width: 100%;
+                    }
+
+                    details[open] {
+                        z-index: 100000;
+                        width: 100%;
+                    }
+
+                    summary {
+                        padding: 1rem;
+                        cursor: pointer;
+                        width: 100%;
+                        border-radius: 5px;
+                        background: #3e3e3e;
+                        list-style: none;
+                        border: 2px solid #4b4b4b;
+
+                        &:hover {
+                            background: #111111;
+
+                        }
+                    }
+
+                    summary::-webkit-details-marker {
+                        display: none;
+                    }
+
+                    details[open] summary:before {
+                        content: '';
+                        display: block;
+                        width: 100%;
+                        height: 100vh;
+                        background: transparent;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    summary:after {
+                        content: '';
+                        display: inline-block;
+                        float: right;
+                        width: .5rem;
+                        height: .5rem;
+                        border-bottom: 2px solid currentColor;
+                        border-left: 2px solid currentColor;
+                        margin-top: 8px;
+                        border-bottom-left-radius: 2px;
+                        transform: rotate(-45deg) translate(0%, 0%);
+                        transform-origin: center center;
+                        transition: transform ease-in-out 100ms;
+                    }
+
+                    summary:focus {
+                        outline: none;
+                    }
+
+                    details[open] summary:after {
+                        transform: rotate(-225deg) translate(0%, 0%);
+                    }
+
+                    ul {
+                        width: 100%;
+                        background: #111111;
+                        ;
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        padding: 1rem;
+                        margin: 0;
+                        box-sizing: border-box;
+                        border-radius: 5px;
+                        max-height: 200px;
+                        overflow-y: auto;
+                        
+                        border: 2px solid rgb(46, 44, 44);
+
+                    }
+
+                    ::-webkit-scrollbar {
+                        width: 7px;
+                    }
+
+                    /* Track */
+                    ::-webkit-scrollbar-track {
+                        border: none;
+
+                    }
+
+                    ::-webkit-scrollbar-thumb {
+                        background: gray;
+                        border-radius: 10px;
+                    }
+
+                    li {
+                        margin: 0;
+                        padding: 15px;
+
+                    }
+
+                    li:first-child {
+                        padding-top: 0;
+                    }
+
+                    li:last-child {
+                        padding-bottom: 0;
+                        border-bottom: none;
+                    }
+
+                    /* FAKE SELECT */
+
+                    summary.radios {
+                        counter-reset: radios;
+                    }
+
+                    input[type=radio] {
+                        counter-increment: radios;
+                        appearance: none;
+                        display: none;
+                    }
+
+                    input[type=radio]:checked {
+                        display: inline;
+                    }
+
+                    input[type=radio]:after {
+                        content: attr(title);
+                        display: inline;
+                        font-size: 1rem;
+                    }
+
+                    ul.list {
+                        counter-reset: labels;
+                    }
+
+                    label {
+                        width: 100%;
+                        display: block;
+                        cursor: pointer;
+                    }
+
+                    .pix-text-center {
+                        text-align: center;
+                        padding: 0 5px;
+                        padding-top: 10px;
+                        font-size: 18px;
+
+                        .input-range {
+                            padding: 0;
+                            position: relative;
+
+
+
+                            span {
+
+                                &.irs-min,
+                                &.irs-max {
+                                    visibility: hidden;
+                                    top: -180px;
+                                    z-index: -1;
+
+                                }
+
+                                &.irs-from {
+                                    color: white;
+                                    position: absolute;
+                                    left: -1% !important;
+                                    top: 11px !important;
+                                    font-weight: 700;
+                                    letter-spacing: 1px;
+                                    background-color: transparent;
+
+
+                                    &::before {
+                                        display: none;
+                                    }
+                                }
+
+                                &.irs-to {
+                                    color: white;
+                                    position: absolute;
+                                    font-weight: 700;
+                                    left: 90% !important;
+                                    letter-spacing: 1px;
+                                    top: 11px !important;
+                                    background-color: transparent;
+
+
+
+                                    &::before {
+                                        display: none;
+                                    }
+
+                                }
+
+                                &.irs-handle {
+                                    border: none;
+                                    width: 13px;
+                                    height: 13px;
+                                    top: 31px;
+                                    transition: 0.8s ease-in-out background;
+
+                                    &:hover {
+                                        background-color: $colorRed;
+                                    }
+
+
+                                }
+
+                                &.irs-bar {
+                                    background-color: rgba(128, 128, 128, 0.452);
+                                    height: 2px;
+
+                                }
+
+                                &.irs-line {
+                                    background-color: rgba(128, 128, 128, 0.452);
+                                    height: 2px;
+                                }
+
+                                &.irs-single {
+                                    background-color: transparent;
+                                    &::before{
+                                        display: none;
+                                    }
+                                }
+
+
+                            }
+
+                        }
+
+
+
+                    }
+
+                    .pix-text-center {
+                        text-align: center;
+                        padding: 0 5px;
+                        padding-top: 10px;
+                        font-size: 18px;
+
+                        .input-rangE {
+                            padding: 0;
+                            position: relative;
+
+
+
+                            span {
+
+                                &.irs-min,
+                                &.irs-max {
+                                    visibility: hidden;
+                                    top: -180px;
+                                    z-index: -1;
+
+                                }
+
+                                &.irs-from {
+                                    color: white;
+                                    position: absolute;
+                                    left: -1% !important;
+                                    top: 11px !important;
+                                    font-weight: 700;
+                                    letter-spacing: 1px;
+                                    background-color: transparent;
+
+
+                                    &::before {
+                                        display: none;
+                                    }
+                                }
+
+                                &.irs-to {
+                                    color: white;
+                                    position: absolute;
+                                    font-weight: 700;
+                                    left: 80% !important;
+                                    letter-spacing: 1px;
+                                    top: 11px !important;
+                                    background-color: transparent;
+
+
+
+                                    &::before {
+                                        display: none;
+                                    }
+
+                                }
+
+                                &.irs-handle {
+                                    border: none;
+                                    width: 13px;
+                                    height: 13px;
+                                    top: 31px;
+                                    transition: 0.8s ease-in-out background;
+
+                                    &:hover {
+                                        background-color: $colorRed;
+                                    }
+
+
+                                }
+
+                                &.irs-bar {
+                                    background-color: rgba(128, 128, 128, 0.452);
+                                    height: 2px;
+
+                                }
+
+                                &.irs-line {
+                                    background-color: rgba(128, 128, 128, 0.452);
+                                    height: 2px;
+                                }
+
+                                &.irs-single {
+                                    background-color: transparent;
+                                    &::before{
+                                        display: none;
+                                    }
+                                }
+
+
+                            }
+
+                        }
+
+
+
+                    }
+
+
+
+
+                    .checkbox-title {
+                        text-align: left;
+                        padding-top: 10px;
+                    }
+
+                    .pix-product-checkbox {
+                        padding-top: 20px;
+
+                        .contain {
+
+                            display: block;
+                            position: relative;
+                            padding-left: 35px;
+                            margin-bottom: 12px;
+                            cursor: pointer;
+                            font-size: 13px;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                        }
+
+                        /* Hide the browser's default checkbox */
+                        .contain input {
+                            position: absolute;
+                            opacity: 0;
+                            cursor: pointer;
+                            height: 0;
+                            width: 0;
+                        }
+
+                        /* Create a custom checkbox */
+                        .checkmark {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 13px;
+                            width: 18px;
+                            border-radius: 3px;
+                            background-color: #111111;
+                            border: 1px solid whitesmoke;
+                        }
+
+                        /* On mouse-over, add a grey background color */
+
+
+                        /* When the checkbox is checked, add a blue background */
+                        .contain input:checked~.checkmark {
+                            background-color: #111111;
+                        }
+
+                        /* Create the checkmark/indicator (hidden when not checked) */
+                        .checkmark:after {
+                            content: "";
+                            position: absolute;
+                            display: none;
+                        }
+
+                        /* Show the checkmark when checked */
+                        .contain input:checked~.checkmark:after {
+                            display: block;
+                        }
+
+                        /* Style the checkmark/indicator */
+                        .contain .checkmark:after {
+                            background-color: $colorRed;
+                            width: 16px;
+                            height: 16px;
+                            content: "";
+                            top: 7%;
+                            left: 0;
+                            border-radius: 100%;
+
+                        }
+
+
+                    }
+
+                    .pix-button-side {
+                        padding-top: 28px;
+
+                        a {
+                            text-decoration: none;
+                            padding: 20px 70px;
+                            text-align: center;
+                            border-radius: 8px;
+                            color: white;
+                            font-size: 15px;
+                            display: block;
+                            background-color: $colorRed;
+
+
+                            cursor: pointer;
+                            width: 100%;
+
+                            background-color: $colorRed;
+
+
+                            top: 50%;
+                            transition: box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
+                            font-weight: 600;
+
+
+                            &:hover {
+                                box-shadow: 0px 0px 15px 2px #d42424b6;
+                                background-color: red;
+                            }
+                        }
+                    }
+
+
+                }
+
+            }
+
+            //////////////////////END TOP FILTER///////////
+            /////////////////START BOTTOM FILTER//////////////
+
+            .bottom-filter-pix {
+                background: #111111;
+                color: #fff;
+                width: 100%;
+                text-align: left;
+                padding: 45px;
+                border-radius: 5px;
+                display: inline-block;
+                vertical-align: top;
+                margin-bottom: 52px;
+
+                .pix-bottom-title {
+                    h3 {
+                        padding: 0 48px 0 0;
+                        position: relative;
+                        font-size: 24px;
+                        line-height: 1;
+                        font-weight: 700;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        
+
+                        span {
+                            background-image: url(https://quattro.true-emotions.studio/wp-content/themes/quattro/images/decor.svg);
+                            width: 42px;
+                            height: 42px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            position: absolute;
+
+                            top: 0;
+                            bottom: 0;
+                            right: 0;
+                            margin: auto;
+                        }
+
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: gray;
+                        text-align: left;
+                    }
+
+
+                }
+
+                .pix-bottom-row {
+                    padding-top: 20px;
+
+                    .pix-related-car {
+                        margin-bottom: 30px;
+
+                        .bottom-img-box {
+                            width: 100%;
+                            cursor: pointer;
+
+                            img {
+                                max-width: 182px;
+                            }
+                        }
+
+                        .bottom-row-info {
+                            a {
+                                padding-top: 10px;
+                                color: white;
+                                display: block;
+                                transition: 0.3s ease-in-out;
+
+                                &:hover {
+                                    text-decoration: none
+                                }
+                            }
+                        }
+
+                        .row-info-list {
+
+                            li {
+                                margin-top: 10px;
+                                margin-right: 10px;
+                                display: inline-block;
+
+                                &.imgLI {
+                                    flex-wrap: wrap;
+                                    align-items: center;
+                                    color: #5c5c5c;
+
+                                    i {
+                                        color: gray;
+                                        font-size: 17px;
+                                        padding-right: 7px;
+                                    }
+
+                                    span {
+                                        font-size: 15px;
+                                        font-weight: 600;
+
+                                        &.void {
+                                            padding-right: 5px;
+                                        }
+
+                                    }
+                                }
+
+                                &.redLi {
+                                    color: $colorRed;
+                                    font-weight: 700;
+
+                                }
+
+                            }
+                        }
+
+                        &.last-one {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "_responsive";
